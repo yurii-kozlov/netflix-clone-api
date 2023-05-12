@@ -4,8 +4,8 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import mongoose from 'mongoose';
 import { register } from 'tsconfig-paths';
-import router from 'router/router';
-import handleErrors from 'middlewares/error-middleware';
+import router from './router/router';
+import handleErrors from './middlewares/error-middleware';
 
 dotenv.config();
 register();

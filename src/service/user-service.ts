@@ -1,15 +1,15 @@
-import UserModel from 'models/user-model';
-import { Plan } from 'interfaces/Plan';
+import UserModel from '../models/user-model';
+import { Plan } from '../interfaces/Plan';
 import bcrypt from 'bcrypt';
 import { v4 as uuidv4 } from 'uuid';
-import mailService from 'service/mail-service';
-import tokenService from 'service/token-service';
-import UserDto from 'dtos/user-dto';
-import ApiError from 'exceptions/api-error';
+import mailService from '../service/mail-service';
+import tokenService from '../service/token-service';
+import UserDto from '../dtos/user-dto';
+import ApiError from '../exceptions/api-error';
 import dotenv from 'dotenv';
-import userModel from 'models/user-model';
-import { UserDoc } from "interfaces/UserDoc";
-import { Movie } from 'interfaces/Movie';
+import userModel from '../models/user-model';
+import { UserDoc } from "../interfaces/UserDoc";
+import { Movie } from '../interfaces/Movie';
 
 dotenv.config();
 

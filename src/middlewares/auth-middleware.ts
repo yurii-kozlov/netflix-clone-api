@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
-import ApiError from "exceptions/api-error";
-import tokenService from "service/token-service";
-import UserDto from "dtos/user-dto";
+import ApiError from "../exceptions/api-error";
+import tokenService from "../service/token-service";
+import UserDto from "../dtos/user-dto";
 
 interface AthorizationRequest extends Request {
   user: UserDto;

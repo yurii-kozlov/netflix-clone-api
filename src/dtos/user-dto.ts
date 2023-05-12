@@ -1,6 +1,6 @@
-import { UserDoc } from "interfaces/UserDoc";
-import { Plan } from 'interfaces/Plan';
-import { Movie } from "interfaces/Movie";
+import { UserDoc } from "../interfaces/UserDoc";
+import { Plan } from '../interfaces/Plan';
+import { Movie } from "../interfaces/Movie";
 
 class UserDto {
   email: string;

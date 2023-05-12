@@ -1,11 +1,11 @@
 import { Request, Response, NextFunction } from "express";
-import userService, { UserData } from "service/user-service";
+import userService, { UserData } from "../service/user-service";
 import dotenv from 'dotenv';
 import { validationResult } from 'express-validator';
-import ApiError from "exceptions/api-error";
-import { UserDoc } from "interfaces/UserDoc";
-import UserDto from "dtos/user-dto";
-import { Movie } from "interfaces/Movie";
+import ApiError from "../exceptions/api-error";
+import { UserDoc } from "../interfaces/UserDoc";
+import UserDto from "../dtos/user-dto";
+import { Movie } from "../interfaces/Movie";
 
 dotenv.config();
 
