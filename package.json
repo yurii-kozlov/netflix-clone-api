@@ -32,11 +32,6 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.4"
   },
-  "pre-commit": [
-    "ts.check",
-    "build",
-    "add-build"
-  ],
   "dependencies": {
     "@types/express-validator": "^3.0.0",
     "bcrypt": "^5.1.0",
@@ -50,5 +45,10 @@
     "mongoose": "^7.0.3",
     "nodemailer": "^6.9.1",
     "uuid": "^9.0.0"
-  }
+  },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ]
 }
